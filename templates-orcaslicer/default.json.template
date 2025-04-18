@@ -19,7 +19,7 @@
         "{{density}}"
     ],
     "filament_flow_ratio": [
-        "0.94"
+        "{{extra.extrusion_multiplier|default(0.94)|float}}"
     ],
     "filament_settings_id": [
         "{{id}}"
